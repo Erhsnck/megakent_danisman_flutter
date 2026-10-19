@@ -1,0 +1,35 @@
+name: megakent_danisman
+version: 1.0.0+1
+description: Megakent Danışman — Flutter container (Capacitor/ionic replica) aligned with decompiled_app
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^6.0.0
+  flutter_local_notifications: ^17.0.0
+  flutter_native_splash: ^2.4.0
+  connectivity_plus: ^6.0.0
+  permission_handler: ^11.3.0
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/images/splash_icon.png
+  android_12:
+    color: "#000000"
+    image: assets/images/splash_icon.png
